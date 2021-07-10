@@ -12,7 +12,7 @@ const livros = [
         id: 2,
         nome: "O Genocídio do negro brasileiro",
         autor: "Abdias do Nascimento",
-        categoria: "História Brasileira",
+        categoria: "Historia Brasileira",
         paginas: 254,
         recomenda: false,
         leu: false
@@ -21,7 +21,7 @@ const livros = [
         id: 3,
         nome: "As veias abertas da América Latina",
         autor: "Eduardo Galeano",
-        categoria: "Américas",
+        categoria: "Americas",
         paginas: 400,
         recomenda: false,
         leu: false
@@ -54,3 +54,5 @@ const livros = [
         leu: true
     }
 ];
+
+module.exports = livros;
