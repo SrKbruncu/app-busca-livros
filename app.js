@@ -17,6 +17,13 @@ while(true){
         categoriaEscolhida = livros.filter(livro => quest===livro.categoria);
         console.table(categoriaEscolhida);
         break
+    }else if(quest.toLocaleUpperCase() === "N"){
+        console.log("Esses são todos os livros: ");
+        let todosLivros = livros.sort((a,b) => a.paginas-b.paginas);
+        console.table(todosLivros);
+        break
+    }else{
+        console.log("Informe uma resposta válida!");
     }
     
     
